@@ -1,0 +1,159 @@
+body {
+    background: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #555;
+    height: 35px;
+}
+
+header .logo {
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+header .reg, .login {
+    color: #fff;
+    float: right;
+    padding-right: 20px;
+    font-weight: normal;
+}
+
+#main {
+    width: 1006px;
+    height: 365px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#main .note {
+    width: 320px;
+    height: 365px;
+    background: #fff;
+    float: left;
+    font-weight: normal;
+    border: 1px solid #dedfe0;
+}
+
+#main .note p {
+    color: #7d7d7d;
+    text-align: center;
+    font-size: 14px;
+}
+
+.note p.weibo {
+    padding-left: 100px;
+}
+
+.note p.weibo a {
+    color: #268dcd;
+}
+
+#main .note img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#main .note ul {
+    list-style: none;
+    margin: 0;
+    font-size: 14px;
+    padding-top: 0px;
+    color: #333333;
+}
+
+#main .note ul li {
+    line-height: 27px;
+}
+
+#main .sucai {
+    width: 320px;
+    height: 365px;
+    background: #fff;
+    float: left;
+    margin: 0 20px;
+    border: 1px solid #dedfe0;
+}
+
+#main .sucai img {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+#main .sucai h4{
+    padding-left: 10px;
+}
+
+#main .sucai p {
+    padding-left: 10px;
+    margin-top: 0;
+    font-weight: normal;
+}
+
+#main .user {
+    width: 320px;
+    height: 365px;
+    background: #fff;
+    float: left;
+    border: 1px solid #dedfe0;
+}
+
+#main .user ul {
+    list-style: none;
+    padding-left: 30px;
+}
+
+#main .user ul li {
+    float: left;
+    width: 90px;
+    padding: 2px 3px;
+}
+
+#main .user ul li img {
+    display: block;
+}
+
+#main .user ul li a {
+    display: block;
+    width: 80px;
+    color: #268dcd;
+    font-weight: normal;
+}
+
+#main .user h4 {
+    padding-left: 10px;
+}
+
+footer {
+    margin: 50px auto;
+}
+
+footer .beian {
+    font-weight: normal;
+    color: #666A75;
+    text-align: center;
+}
+
+footer .beian a {
+    color: #666A75;
+    text-decoration: underline;
+}
+
+footer .beian a:hover {
+    text-decoration: none;
+}
