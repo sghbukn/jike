@@ -1,0 +1,15 @@
+①在github新建一个仓库，本地git clone git@github.com:sghbukn/仓库名.git
+
+②cd 仓库名进入到本地仓库文件夹
+
+③进入仓库创建一个gh-pages分支，git branch gh-pages（备注，可以省略这一步）
+
+④切换到分支gh-pages分支，git checkout gh-pages
+
+⑤清空gh-pages分支仓库，git rm -rf .
+
+⑥将需要上传的文件放在清空的那个仓库，执行git add *
+
+⑦提交本次修改git commit -m "代码提交信息"
+
+⑧将文件推送到github就完成了git push origin gh-pages
