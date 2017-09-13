@@ -126,6 +126,8 @@ header .reg, .login {
 
 #main .user ul li img {
     display: block;
+    width: 50px;
+    margin: 0 auto;
 }
 
 #main .user ul li a {
@@ -133,6 +135,7 @@ header .reg, .login {
     width: 80px;
     color: #268dcd;
     font-weight: normal;
+    text-align: center;
 }
 
 #main .user h4 {
